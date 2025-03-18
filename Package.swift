@@ -5,19 +5,17 @@ import PackageDescription
 
 let package = Package(
     name: "WebPayLibrary",
+    platforms: [
+        .iOS(.v12) // compatible with iOS version 12 and later
+    ]
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "WebPayLibrary",
-            targets: ["WebPayLibrary"]),
+            targets: ["WebPaySDK"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "WebPayLibrary"),
-        .testTarget(
-            name: "WebPayLibraryTests",
-            dependencies: ["WebPayLibrary"]),
+        // The destination of the framework which obfuscate the code
+        .binaryTarget(name: "", path: "./Sources/WebPaySDK.framework")
     ]
 )
