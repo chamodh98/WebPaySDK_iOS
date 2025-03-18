@@ -16,6 +16,6 @@ let package = Package(
     ],
     targets: [
         // The destination of the framework which obfuscate the code
-        .binaryTarget(name: "", path: "./Sources/WebPaySDK.xcframework")
+        .binaryTarget(name: "WebPaySDK", path: "./Sources/WebPaySDK.xcframework")
     ]
 )
