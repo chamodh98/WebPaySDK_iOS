@@ -7,7 +7,7 @@ let package = Package(
     name: "WebPayLibrary",
     platforms: [
         .iOS(.v12) // compatible with iOS version 12 and later
-    ]
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -16,6 +16,6 @@ let package = Package(
     ],
     targets: [
         // The destination of the framework which obfuscate the code
-        .binaryTarget(name: "", path: "./Sources/WebPaySDK.framework")
+        .binaryTarget(name: "", path: "./Sources/WebPaySDK.xcframework")
     ]
 )
