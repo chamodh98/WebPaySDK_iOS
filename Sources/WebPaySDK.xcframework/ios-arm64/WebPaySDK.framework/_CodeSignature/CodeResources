@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/WebPaySDK-Swift.h</key>
 		<data>
-		r4Uiu0dqcp+Lhw40gIdgKqH5r0g=
+		0Bc7y5EUgWL3UlJ6fGUCw/SWLrs=
 		</data>
 		<key>Headers/WebPaySDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RVBX/TfcDopLJbJXUJTM4pIvcBU=
+		WKLsxSy5KDMtjhJtIjSrdjnW49s=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zVBGNDefAFjB7quPYCaNTsDeltQ=
+		WfTCn+bJ3sYsiKj7QxsuaXWxBdg=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		HQh7BWNBSqd0PFs0xBjewH9IBZo=
+		AKCwX25XCfvi7J0pAQikXwclVb0=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		BzZxZvi0Ss6p7iFDQFFrerfyFVw=
+		4loCpUXn+K0LtZjUwjqFN4evnfA=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HQh7BWNBSqd0PFs0xBjewH9IBZo=
+		AKCwX25XCfvi7J0pAQikXwclVb0=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Cv7E9cMGSZyXl6zPh2DlTN1Trgs=
+		ybBap4RxMbtoSuqvpiyn2doMOv4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QXxlSrCQ1nAkVje3Aak0aD+aheGhfJUNhEdLAV1E2b0=
+			5km7qjw4bljKPLyx0o3SZl5HklzmsP1GyTwtaj0z++Y=
 			</data>
 		</dict>
 		<key>Headers/WebPaySDK.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uSe9kHUNdLfhNnNal74Uim2J/ix1ezYg4FJ0hyHYhAk=
+			tBz+c4SjRQ1JE8Yk0Sh5vEfHzdOVKatk/3mvgJ4DKeQ=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hhSVXmX71nlwsCTeJ+c8eEFBeSYzXdVHNVyce0Q/TCU=
+			e21i8UH675Prh8f8mUQSpAX/+HyvGqYkfqgeBKla1vM=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RvoDJufbB+ndJN7hBdVh5bw8rOoAJtwLRQoNLbsfIh8=
+			XZHc+iL8bLN9dTnTo0idr7YmJKo0GEZSf2lGEoqZNw4=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hhSVXmX71nlwsCTeJ+c8eEFBeSYzXdVHNVyce0Q/TCU=
+			e21i8UH675Prh8f8mUQSpAX/+HyvGqYkfqgeBKla1vM=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TsUmflbw72e+7LcompNsyS1Mk/HnPGuQVwj1rcuztzY=
+			GW14jJz2b7KpU5ZqMuk5kHOZI68cq3sD8zKnFhIPiV4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
