@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "WebPaySDK",
+    "printedName": "WebPaySDK",
     "children": [
       {
         "kind": "Import",
@@ -1094,6 +1094,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1171,6 +1185,304 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SDKEnvironment",
+        "printedName": "SDKEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LIVE",
+            "printedName": "LIVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebPaySDK.SDKEnvironment.Type) -> WebPaySDK.SDKEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKEnvironment",
+                    "printedName": "WebPaySDK.SDKEnvironment",
+                    "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebPaySDK.SDKEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKEnvironment",
+                        "printedName": "WebPaySDK.SDKEnvironment",
+                        "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO4LIVEyA2CmF",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO4LIVEyA2CmF",
+            "moduleName": "WebPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "DEVELOPMENT",
+            "printedName": "DEVELOPMENT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebPaySDK.SDKEnvironment.Type) -> WebPaySDK.SDKEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKEnvironment",
+                    "printedName": "WebPaySDK.SDKEnvironment",
+                    "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebPaySDK.SDKEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKEnvironment",
+                        "printedName": "WebPaySDK.SDKEnvironment",
+                        "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO11DEVELOPMENTyA2CmF",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO11DEVELOPMENTyA2CmF",
+            "moduleName": "WebPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "STAGING",
+            "printedName": "STAGING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebPaySDK.SDKEnvironment.Type) -> WebPaySDK.SDKEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKEnvironment",
+                    "printedName": "WebPaySDK.SDKEnvironment",
+                    "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebPaySDK.SDKEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKEnvironment",
+                        "printedName": "WebPaySDK.SDKEnvironment",
+                        "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO7STAGINGyA2CmF",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO7STAGINGyA2CmF",
+            "moduleName": "WebPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SANDBOX",
+            "printedName": "SANDBOX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebPaySDK.SDKEnvironment.Type) -> WebPaySDK.SDKEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKEnvironment",
+                    "printedName": "WebPaySDK.SDKEnvironment",
+                    "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebPaySDK.SDKEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKEnvironment",
+                        "printedName": "WebPaySDK.SDKEnvironment",
+                        "usr": "s:9WebPaySDK14SDKEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO7SANDBOXyA2CmF",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO7SANDBOXyA2CmF",
+            "moduleName": "WebPaySDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKEnvironment",
+                "printedName": "WebPaySDK.SDKEnvironment",
+                "usr": "s:9WebPaySDK14SDKEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKEnvironment",
+                "printedName": "WebPaySDK.SDKEnvironment",
+                "usr": "s:9WebPaySDK14SDKEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "WebPaySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO9hashValueSivp",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO9hashValueSivp",
+            "moduleName": "WebPaySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK14SDKEnvironmentO9hashValueSivg",
+                "mangledName": "$s9WebPaySDK14SDKEnvironmentO9hashValueSivg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WebPaySDK14SDKEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9WebPaySDK14SDKEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "WebPaySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9WebPaySDK14SDKEnvironmentO",
+        "mangledName": "$s9WebPaySDK14SDKEnvironmentO",
+        "moduleName": "WebPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1200,9 +1512,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "SDKEnvironment",
+                "printedName": "WebPaySDK.SDKEnvironment",
+                "usr": "s:9WebPaySDK14SDKEnvironmentO"
               },
               {
                 "kind": "TypeNominal",
@@ -1213,7 +1525,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String?) -> ()",
+                "printedName": "(Swift.String?, Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1222,24 +1534,59 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:9WebPaySDK13WebpayManagerC03webB04from4with11paymentData10completionySo16UIViewControllerC_SSAA07PaymentJ0CySSSgctFZ",
-            "mangledName": "$s9WebPaySDK13WebpayManagerC03webB04from4with11paymentData10completionySo16UIViewControllerC_SSAA07PaymentJ0CySSSgctFZ",
+            "usr": "s:9WebPaySDK13WebpayManagerC03webB04from4with11paymentData10completionySo16UIViewControllerC_AA14SDKEnvironmentOAA07PaymentJ0CySSSg_A2OtctFZ",
+            "mangledName": "$s9WebPaySDK13WebpayManagerC03webB04from4with11paymentData10completionySo16UIViewControllerC_AA14SDKEnvironmentOAA07PaymentJ0CySSSg_A2OtctFZ",
             "moduleName": "WebPaySDK",
             "static": true,
             "declAttributes": [
@@ -1256,422 +1603,109 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 190,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 211,
+      "offset": 232,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 277,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 313,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 358,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 396,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 378,
+      "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 420,
+      "offset": 483,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 523,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 564,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 606,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/webPayLibrary\/WebPaySDK\/PaymentData.swift",
       "kind": "StringLiteral",
-      "offset": 557,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 679,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 724,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 760,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 805,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 843,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 930,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 970,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 1011,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 1053,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
-      "kind": "StringLiteral",
-      "offset": 1095,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 490,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 17,
-      "value": "\"callbackHandler\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 982,
-      "length": 20,
-      "value": "\"Close Payment View\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1302,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1396,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1491,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1576,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1659,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1780,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1873,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1967,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2057,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2118,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2133,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2333,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2554,
-      "length": 35,
-      "value": "\"Payment data encoded successfully\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2697,
-      "length": 33,
-      "value": "\"Error encoding the payment data\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2798,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2838,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3051,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3357,
-      "length": 17,
-      "value": "\"callbackHandler\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3537,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 700,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 863,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1076,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1183,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1281,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1390,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1485,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1591,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1710,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1812,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1917,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2024,
+      "offset": 648,
       "length": 2,
       "value": "\"\""
     }
